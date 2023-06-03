@@ -1,0 +1,222 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    flex-grow: 1;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 16.5rem;
+    padding-right: 16.5rem;
+}
+.site-btn {
+    width: 167px;
+    display: inline-block;
+    padding: 14px 31px;
+    border-radius: 28px;
+    border: none;
+    font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.header__container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+}
+.header__container .site-btn {
+    background-color: #13183F;
+}
+.header__container .site-btn:hover {
+    background-color: #666CA3;
+}
+.header__container .site-btn:active {
+    opacity: 0.6;
+}
+.sitenav__list {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-section1 {
+    display: flex;
+    position: relative;
+}
+.hero-section1__img {
+    position: absolute;
+    right: -118%;
+    top: -30%;
+}
+.hero-section1 .site-btn {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    margin-top: 4rem;
+}
+.hero-section1 .site-btn:hover {
+    background: #F02AA6;
+    opacity: 0.6;
+}
+.hero-section1 .site-btn:active {
+    opacity: 0.8;
+}
+.hero-section1__title {
+    font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+    font-weight: 800;
+    font-size: 5.6rem;
+    line-height: 1.26;
+    margin-top: 14.8rem;
+    color: #13183F;
+}
+.hero-section1__text {
+    font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83869A;
+}
+.hero-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25rem;
+}
+.box-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 8rem;
+}
+.box-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 14rem;
+}
+.BOX {
+    width: 350px;
+    height: 322px;
+    padding: 64px 32px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+    position: relative;
+}
+.box1__title {
+    font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.box__title {
+    font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #13183F;
+    margin-bottom: 24px;
+}
+.box__text {
+    font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83869A;
+    margin-bottom: 2.4rem;
+}
+.box__link {
+    font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #F74780;
+}
+.box__link:hover {
+    color: #FFA7C3;
+}
+.box__link:active {
+    opacity: 0.6;
+}
+.box1 {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: #FFFFFF;
+}
+.box__img {
+    position: absolute;
+    top: -28px;
+    left: 32px;
+    cursor: pointer;
+}
+.box__img:hover {
+    opacity: 0.6;
+}
+.box__img:active {
+    opacity: 0.8;
+}
+.footer__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    background-color: #13183F;
+}
+.footer__container .site-btn {
+    background: linear-gradient(180deg, #4851FF -54.32%, #f028a7 100%);
+}
+.footer__container .site-btn:hover {
+    background: #f028a7;
+    opacity: 0.6;
+}
+.footer__container .site-btn:active {
+    opacity: 0.8;
+}
